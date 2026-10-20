@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amany Taha | Portfolio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css">
+    <!-- Font Awesome للأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts (Cairo) -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Cairo', sans-serif; background-color: #f8f9fa; }
+        .hero-section { background: linear-gradient(135deg, #0d6efd, #0a58ca); color: white; padding: 100px 0 80px; }
+        .card { transition: transform 0.3s ease, box-shadow 0.3s ease; border: none; border-radius: 12px; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important; }
+        .skill-badge { font-size: 0.95rem; padding: 10px 18px; margin: 5px; border-radius: 20px; }
+        footer { background-color: #212529; color: #ccc; }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">أماني طه</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">من أنا</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">المهارات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">المشاريع</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">تواصل معي</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3">أماني عاطف السيد طه</h1>
+            <p class="lead mb-4">طالبة إدارة أعمال ونظم معلومات | مطورة ويب ومبرمجة Python</p>
+            <a href="#projects" class="btn btn-light btn-lg px-4 me-2">معرض الأعمال</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg px-4">تواصل معي</a>
+        </div>
+    </header>
+
+    <!-- About Me -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">نبذة عني</h2>
+            <p class="fs-5 text-muted col-md-8 mx-auto">
+                طالبة شغوفة بتطوير البرمجيات والتقنية، أجمع بين دراسة إدارة الأعمال وتطوير الويب وبرمجة بايثون. أسعى لبناء تطبيقات ومواقع إلكترونية ذكية وتفاعلية.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">المهارات التقنية</h2>
+            <div class="d-flex flex-wrap justify-content-center">
+                <span class="badge bg-primary skill-badge">HTML5</span>
+                <span class="badge bg-primary skill-badge">CSS3</span>
+                <span class="badge bg-primary skill-badge">Bootstrap 5</span>
+                <span class="badge bg-primary skill-badge">Python</span>
+                <span class="badge bg-primary skill-badge">SQL & Databases</span>
+                <span class="badge bg-primary skill-badge">Git & GitHub</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">سابقة الأعمال والمشاريع</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm p-3">
+                        <h5 class="fw-bold">موقع Portfolio شخصي</h5>
+                        <p class="text-muted">تصميم سيرة ذاتية إلكترونية متجاوبة باستخدام Bootstrap و HTML.</p>
+                        <span class="badge bg-secondary w-50">HTML / Bootstrap</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm p-3">
+                        <h5 class="fw-bold">تطبيقات Python</h5>
+                        <p class="text-muted">سكربتات برمجية لمعالجة البيانات وهياكل البيانات.</p>
+                        <span class="badge bg-secondary w-50">Python</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm p-3">
+                        <h5 class="fw-bold">نظام إدارة بيانات</h5>
+                        <p class="text-muted">نموذج مصمم لدعم العمليات المحاسبية باستخدام قواعد البيانات.</p>
+                        <span class="badge bg-secondary w-50">Databases</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 bg-white text-center">
+        <div class="container">
+            <h2 class="fw-bold mb-4">تواصل معي</h2>
+            <p class="text-muted mb-3">يمكنك التواصل معي عبر البريد الإلكتروني أو المنصات المهنية.</p>
+            <a href="mailto:example@email.com" class="btn btn-dark btn-lg"><i class="fas fa-envelope me-2"></i>راسلني</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 text-white">
+        <p class="m-0">جميع الحقوق محفوظة &copy; 2026 - أماني طه</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
